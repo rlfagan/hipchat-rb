@@ -10,6 +10,8 @@ h2. Usage
 
 bc.. client = HipChat::Client.new(api_token)
 # 'username' is the name for which the message will be presented as from
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Frlfagan%2Fhipchat-rb.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Frlfagan%2Fhipchat-rb?ref=badge_shield)
+
 client['my room'].send('username', 'I talk')
 
 # Send notifications to users (default false)
@@ -92,3 +94,7 @@ end
 h2. Copyright
 
 Copyright (c) 2012 Atlassian. See LICENSE for details.
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Frlfagan%2Fhipchat-rb.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Frlfagan%2Fhipchat-rb?ref=badge_large)
